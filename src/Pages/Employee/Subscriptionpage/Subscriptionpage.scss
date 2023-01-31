@@ -1,0 +1,337 @@
+.wallet-alignments {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+  .wallet-middle {
+    margin-top: 10vh;
+    .subscription-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+    }
+    .wallet-heading {
+      text-align: center;
+      font: normal normal 600 60px/82px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+    }
+    .wallet-price {
+      text-align: center;
+      font: normal normal 600 60px/82px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+    }
+    .coins-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+    }
+    .your-coins {
+      text-align: center;
+      letter-spacing: 1px;
+      color: #17378c;
+      opacity: 1;
+      color: #17378c;
+    }
+    .coins-container-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 33.25rem;
+      height: 22rem;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #e7e7e7;
+      border-radius: 10px;
+      opacity: 1;
+    }
+    .table-container {
+      width: 50.625rem;
+      height: 22.2rem;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #e7e7e7;
+      border-radius: 10px;
+      opacity: 1;
+    }
+    .transactions {
+      font: normal normal 600 34px/82px Poppins;
+      letter-spacing: 0px;
+      color: #17378c;
+      opacity: 1;
+      padding: 0rem 2rem;
+    }
+    .coins-table-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+    }
+    .add-coins-button {
+      width: 214px;
+      height: 83px;
+      background: #17378c 0% 0% no-repeat padding-box;
+      border-radius: 100px;
+      opacity: 1;
+      color: white;
+      position: relative;
+      top: 7rem;
+      left: 6rem;
+    }
+    .offer-pack-container {
+      width: 85rem;
+      height: 57.75rem;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #e7e7e7;
+      opacity: 1;
+    }
+    .starter-pack {
+      width: 208px;
+      height: 28px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #ffffff;
+      opacity: 1;
+      background: #52c291 0% 0% no-repeat padding-box;
+      border-radius: 60px 0px 0px 60px;
+    }
+    .starter-pack1 {
+      width: 208px;
+      height: 28px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #ffffff;
+      border-radius: 60px 0px 0px 60px;
+      background: #e8a854 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+    .starter-pack2 {
+      width: 208px;
+      height: 28px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #ffffff;
+      border-radius: 60px 0px 0px 60px;
+      background: #2d7af1 0% 0% no-repeat padding-box;
+      opacity: 1;
+    }
+    .offer-pack {
+      width: 82px;
+      height: 28px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #3ba175;
+      opacity: 1;
+      background: #dcffea 0% 0% no-repeat padding-box;
+      border-radius: 0px 60px 60px 0px;
+      opacity: 1;
+    }
+    .offer-pack1 {
+      width: 82px;
+      height: 28px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #3ba175;
+      opacity: 1;
+      background: #fff1dc 0% 0% no-repeat padding-box;
+      border-radius: 0px 60px 60px 0px;
+      opacity: 1;
+    }
+    .offer-pack2 {
+      width: 82px;
+      height: 28px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #3ba175;
+      opacity: 1;
+      background: #eaf1fd 0% 0% no-repeat padding-box;
+      border-radius: 0px 60px 60px 0px;
+    }
+    .coins-amount {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5rem;
+    }
+    .add-coins-button-autopay {
+      width: 168px;
+      height: 60px;
+      background: #16378d 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      text-align: center;
+      font: normal normal medium 20px/82px Poppins;
+      letter-spacing: 0px;
+      color: #ffffff;
+      opacity: 1;
+    }
+    .add-coins-button-autopay h3 {
+      text-align: center;
+      font: normal normal normal 18px/82px Poppins;
+      letter-spacing: 0px;
+      color: #2a2a2a;
+      opacity: 1;
+    }
+    .checkbox-content {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: center;
+      padding-top: 5px;
+      align-items: center;
+    }
+    .coins-amount-button-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 0rem;
+    }
+    .first-type-container {
+      padding: 3rem;
+    }
+    hr {
+      opacity: 0.3;
+    }
+    .bottom-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .gimage-container {
+      background: #f6f6f6 0% 0% no-repeat padding-box;
+      border-radius: 5px;
+      opacity: 1;
+      width: 678px;
+      height: 69px;
+      text-align: center;
+    }
+    .gimage-container h3 {
+      padding-top: 1.35rem;
+    }
+
+    @media (max-width: 1404px) {
+      .coins-container-main {
+        width: 28.25rem;
+      }
+      .offer-pack-container {
+        width: 80rem;
+      }
+    }
+    @media (max-width: 1342px) {
+      .coins-container-main {
+        width: 28.25rem;
+      }
+      .offer-pack-container {
+        width: 80rem;
+      }
+      .table-container {
+        width: 46.625rem;
+      }
+      .wallet-price {
+        font-size: 48px;
+      }
+    }
+    @media (max-width: 1162px) {
+      .coins-image {
+        width: 250px;
+      }
+      .coins-container-main {
+        width: 29.25rem;
+      }
+      .offer-pack-container {
+        width: 70rem;
+      }
+      .table-container {
+        width: 37.625rem;
+      }
+      .coins-container {
+        gap: 4rem;
+      }
+      .coins-image {
+        width: 155px;
+      }
+      @media (max-width: 1076px) {
+        .table-container {
+          width: 32.625rem;
+        }
+        .offer-pack-container {
+          width: 63rem;
+        }
+        .coins-image {
+          width: 110px;
+        }
+      }
+      @media (max-width: 1024px) {
+        .coins-container-main {
+          width: 26.25rem;
+        }
+      }
+
+      @media (max-width: 968px) {
+        .offer-pack-container {
+          width: 52rem;
+        }
+        .coins-container-main {
+          width: 23.25rem;
+          padding-right: 20px;
+        }
+        .coins-image {
+          width: 93px;
+        }
+        .wallet-price {
+          font-size: 40px;
+        }
+      }
+
+      @media (max-width: 960px) {
+        .coins-container-main {
+          width: 22.25rem;
+        }
+      }
+
+      @media (max-width: 893px) {
+        .coins-table-container {
+          gap: 1rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .offer-pack-container {
+          width: 45rem;
+        }
+        .coins-container-main {
+          width: 21.25rem;
+        }
+        .offer-pack-container {
+          width: 46rem;
+        }
+        .table-container {
+          width: 23.625rem;
+        }
+        .coins-image {
+          width: 70px;
+          /* margin-left: 10px; */
+          margin-right: 20px;
+        }
+      }
+      .coins-amount-button-container {
+        padding: 0.5rem 0rem;
+      }
+    }
+  }
+}

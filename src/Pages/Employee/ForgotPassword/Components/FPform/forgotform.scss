@@ -1,0 +1,133 @@
+.forget-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1{
+    @media(max-width:1400px){
+        font-size: 26px;
+    }
+    @media(max-width:900px){
+        font-size: 18px;
+    }
+  }
+  .email-button {
+    .email-style {
+      border: 2px solid #465fa7;
+      input {
+        height: 60px;
+        width: 326px;
+        //   border: 2px solid #465fa7;
+        //   border-right: none;
+        border: none;
+        outline: none;
+        @media (max-width: 1400px) {
+          height: 40px;
+          width: 236px;
+        }
+        @media (max-width: 900px) {
+          height: 30px;
+          width: 156px;
+        }
+      }
+      button {
+        height: 60px;
+        width: 96px;
+        //   border: 2px solid #465fa7;
+        //   border-left: none;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: bold;
+        color: #465fa7;
+        @media (max-width: 1400px) {
+          height: 40px;
+          width: 56px;
+          font-size: 9px;
+        }
+        @media (max-width: 900px) {
+          height: 30px;
+          width: 36px;
+          font-size: 7px;
+        }
+      }
+    }
+  }
+  .otp-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    input {
+      height: 60px;
+      width: 430px;
+      border: 2px solid #465fa7;
+      outline: none;
+      @media (max-width: 1400px) {
+        height: 40px;
+        width: 300px;
+      }
+      @media (max-width: 900px) {
+        height: 30px;
+        width: 200px;
+      }
+    }
+    .resend-button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      @media (max-width: 900px) {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .password-data {
+    input {
+      height: 60px;
+      width: 430px;
+      border: 2px solid #465fa7;
+      outline: none;
+      @media (max-width: 1400px) {
+        height: 40px;
+        width: 300px;
+      }
+      @media (max-width: 900px) {
+        height: 30px;
+        width: 200px;
+      }
+    }
+  }
+  .reset-button {
+    height: 60px;
+    width: 430px;
+    cursor: pointer;
+    background-color: #465fa7;
+    color: white;
+    font-size: 20px;
+    @media (max-width: 1400px) {
+      height: 40px;
+      width: 300px;
+      font-size: 16px;
+    }
+    @media (max-width: 900px) {
+      height: 30px;
+      width: 200px;
+      font-size: 14px;
+    }
+  }
+}
+@media (max-width: 1400px) {
+  input::placeholder {
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px) {
+  input::placeholder {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,78 @@
+.profile-alignment{
+    display: flex;
+    // justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+
+
+
+
+.main-container-editprofile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hr-sizing hr{
+    width: 100%;
+    color: rgb(197, 197, 193);
+    border: 1px solid;
+    margin: 92px 2px;
+}
+.changepassword-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+// .changepassword-child-section{
+//     position: absolute;
+// }
+.button-styleing{
+    width: 216px;
+height: 32px;
+text-align: left;
+font: normal normal normal 23px/34px Poppins;
+letter-spacing: 0px;
+color: #484848;
+opacity: 1;
+border: none;
+background-color: transparent;
+margin-bottom: 20px;
+}
+.top-middelform{
+    width: 68.06rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner-image-container img{
+    width: 100%;
+}
+.all-forms-sizing{
+    width: 68.06rem;
+}
+@media(max-width:1205px){
+    .all-forms-sizing {
+        width: 60.06rem;
+    }
+}
+@media(max-width:1085px){
+    .all-forms-sizing {
+        width: 54.06rem;
+    }
+}
+@media(max-width:1006px){
+    .all-forms-sizing {
+        width: 48.06rem;
+    }
+}
+@media(max-width:851px){
+    .all-forms-sizing {
+        width: 44.06rem;
+    }
+}
+}

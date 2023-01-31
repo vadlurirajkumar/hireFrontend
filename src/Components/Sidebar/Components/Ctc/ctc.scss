@@ -1,0 +1,10 @@
+.ctc-search{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input{
+        height: 35px;
+        width: 100%;
+    }
+}

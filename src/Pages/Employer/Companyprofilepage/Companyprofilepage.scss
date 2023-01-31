@@ -1,0 +1,66 @@
+.image-data-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+}
+.image-data-full-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-main-container{
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+}
+.description-container textarea{
+    height:15vh;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #E7E7E7;
+border-radius: 10px;
+opacity: 1;
+
+}
+.description-container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+
+}
+.hrstyle{
+    width: 100%;
+    height: 2px;
+    color: #FFFFFF;
+}
+.account-settings h2{
+    text-align: left;
+    font: normal normal medium 25px/38px Poppins;
+    letter-spacing: 0px;
+    color: #2A2A2A;
+    opacity: 1;
+}
+.account-settings button{
+    background-color: transparent;
+//     width: 209px;
+// height: 32px;
+// text-align: left;
+// font: normal normal normal 23px/34px Poppins;
+// letter-spacing: 0px;
+// color: #484848;
+// opacity: 1;
+}
+.savebutton-element button{
+   height: 35px;
+   width: 120px;
+   border-radius: 10px;
+}

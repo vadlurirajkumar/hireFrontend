@@ -1,0 +1,119 @@
+
+
+
+/* styling */
+
+.experience-input-fields{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    margin-top: 20px;
+    width: 100%;
+       height:6.875rem;
+  
+  }
+  .experience-input-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 100%;
+    height:6.875rem;
+  }
+  .experience-input-field-map{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 10px;
+    width: 100%;
+    height:6.875rem;
+  }
+  .input-field input{
+    width:20rem;
+    height: 64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #465FA7;
+    border-radius: 5px;
+    opacity: 0.5;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+  
+    
+  }
+  .input-field input placeholder{
+    font-size: 20px;
+    text-align: center;
+  }
+  .container-size{
+    width:20rem;
+    height: 64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #465FA7;
+    border-radius: 5px;
+    opacity: 0.5;
+    text-align: center;
+  }
+  .experinece-field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+  .removebg{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .skill-container-styling{
+    display: flex;
+    align-items: center;
+   flex-direction: row;
+   gap: 20px;
+  
+  }
+  @media(max-width:1300px){
+   
+    .input-field input placeholder{
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+  @media(max-width:1200px){
+    .input-field input{
+    width:16rem;
+    }
+    input-field input placeholder{
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+  @media(max-width:1022px){
+    .input-field input{
+      width:12rem;
+    }
+    input-field input placeholder{
+      font-size: 10px;
+     
+    }
+    .input-field input{
+     
+      font-size: 10px;
+    }
+  }
+  @media(max-width:1084px){
+    .input-field input {
+      width: 14rem;
+  }
+}
+@media(max-width:973px){
+  .input-field input {
+    width: 10rem;
+}
+}

@@ -1,0 +1,11 @@
+
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input{
+        width: 100%;
+        height: 35px;
+    }
+}

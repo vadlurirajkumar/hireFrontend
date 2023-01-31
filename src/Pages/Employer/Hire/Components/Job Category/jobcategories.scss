@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  padding-bottom: 10%;
+}
+
+
+.cardd-container {
+  .cardd-box {
+    // border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    // @media(max-width:900px){
+    //   justify-content: center;
+    // }
+    .cardd-data {
+      margin-top: 3vh;
+      display: flex;
+      align-items: center;
+      // gap: 20px;
+      border: 1px solid #cdcdcd;
+      justify-content: space-around;
+      width: 22vw;
+      padding: 5%;
+      border-radius: 10px;
+      
+      @media (max-width: 1300px) {
+        width: 30vw;
+        padding: 20px;
+        margin-top: 1.5vh;
+      }
+      @media(max-width:900px){
+        width: 40vw;
+        // margin: 0 auto;
+      }
+      img{
+        width: 60px;
+      }
+      p{
+        font-size: 24px;
+        color: #2A2A2A;
+      }
+    }
+  }
+}
