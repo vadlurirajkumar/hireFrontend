@@ -80,7 +80,7 @@ const Navbar = (props) => {
 
     // "about us "
     {
-      home: "My Profile",
+      home: "MyProfile",
       work: "Hire",
       wallet: "Wallet",
       aboutus: "AboutUs",
@@ -91,7 +91,7 @@ const Navbar = (props) => {
 
     // "hire "
     {
-      home: "My Profile",
+      home: "MyProfile",
       work: "Hire",
       wallet: "Wallet",
       aboutus: "AboutUs",
@@ -101,7 +101,7 @@ const Navbar = (props) => {
 
     // "login employee"
     {
-      home: "My Profile",
+      home: "MyProfile",
       work: "Referral",
       aboutus: "AboutUs",
       regester: "1",
@@ -111,8 +111,8 @@ const Navbar = (props) => {
 
     // "profile "
     {
-      home: "My Profile",
-      work: "Referal",
+      home: "MyProfile",
+      work: "Referral",
       aboutus: "AboutUs",
       logout: "1",
       label: "1",
@@ -144,7 +144,7 @@ const Navbar = (props) => {
           <Link to="/"><h1>Hiretep</h1></Link>
         </div>
         <div className={click ? "menu active" : "menu"}>
-          <Link className={nav.home ? "no" : "none"} to="/">
+          <Link to={`../${nav.home}`} className={nav.home ? "no" : "none"} >
             {nav.home}
           </Link>
 

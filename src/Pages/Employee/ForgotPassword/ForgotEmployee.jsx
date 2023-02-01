@@ -7,7 +7,6 @@ import ForgotPassIMG from "../../../Assets/forgotPass.png";
 // IMPORTING DIFFERENT COMPONENTS
 import Navbar from "../../../Components/Navbar/Navbar";
 import Footer from "../../../Components/Footer/Footer";
-// import Qaz from "./Components/FPform/Qaz";
 import ForgotForm from "./Components/FPform/ForgotForm";
 
 const ForgotEmployee = () => {
@@ -20,7 +19,6 @@ const ForgotEmployee = () => {
         <div className="forgot-content">
           <img src={ForgotPassIMG} alt="" />
           <ForgotForm/>
-          {/* <Qaz /> */}
         </div>
         <div>
           <Footer />

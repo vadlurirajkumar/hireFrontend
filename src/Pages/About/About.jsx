@@ -9,8 +9,16 @@ import Section from "../About/Components/Section";
 const About = () => {
   return (
     <>
+      {/* <Navbar index="3" />
+      <div className="about gap">
+        <Section />
+
+        <Footer />
+      </div> */}
       <Navbar index="3" />
       <div className="about gap">
+       
+
         <Section />
 
         <Footer />

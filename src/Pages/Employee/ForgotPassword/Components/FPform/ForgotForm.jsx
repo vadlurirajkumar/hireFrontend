@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import "./forgotform.scss";
 
 function ForgotForm() {
   const navigate = useNavigate();
@@ -71,45 +72,53 @@ function ForgotForm() {
     <>
       {toggle ? (
         <form onSubmit={passwordSubmit}>
-          <input
-            type="text"
-            name="otp"
-            placeholder="otp"
-            value={fpass.otp}
-            onChange={forgotChange}
-          />
-          <br />
-          <input
-            type="text"
-            name="newPassword"
-            placeholder="newPassword"
-            value={fpass.newPassword}
-            onChange={forgotChange}
-          />
-          <br />
-          <input
-            type="text"
-            name="confPassword"
-            placeholder="confPassword"
-            value={fpass.confPassword}
-            onChange={forgotChange}
-          />
-          <br />
-          <button type="submit">Submit</button>
+          <div className="submitContent">
+            <h1>Forgot Password?</h1>
+            <br />
+            <input
+              type="text"
+              name="otp"
+              placeholder="otp"
+              value={fpass.otp}
+              onChange={forgotChange}
+            />
+            <br />
+            <input
+              type="text"
+              name="newPassword"
+              placeholder="newPassword"
+              value={fpass.newPassword}
+              onChange={forgotChange}
+            />
+            <br />
+            <input
+              type="text"
+              name="confPassword"
+              placeholder="confPassword"
+              value={fpass.confPassword}
+              onChange={forgotChange}
+            />
+            <br /> <br />
+            <button type="submit">Submit</button>
+          </div>
         </form>
       ) : (
         <form onSubmit={handleSubmit}>
-          <label>
-            Email:
+          <div className="emailContent">
+            <h1>Forgot Password?</h1>
+            <br />
             <input
               type="email"
               name="email"
               value={email.email}
               onChange={emailChange}
+              placeholder="Email"
             />
-          </label>
-          <button type="submit">Send Otp</button>
-          {error && <p>{error}</p>}
+            <br />
+            <br />
+            <button type="submit">Send Otp</button>
+            {error && <p>{error}</p>}
+          </div>
         </form>
       )}
     </>
