@@ -98,7 +98,7 @@ function ForgotForm() {
               value={fpass.confPassword}
               onChange={forgotChange}
             />
-            <br /> <br />
+            <br /> 
             <button type="submit">Submit</button>
           </div>
         </form>
@@ -114,7 +114,6 @@ function ForgotForm() {
               onChange={emailChange}
               placeholder="Email"
             />
-            <br />
             <br />
             <button type="submit">Send Otp</button>
             {error && <p>{error}</p>}

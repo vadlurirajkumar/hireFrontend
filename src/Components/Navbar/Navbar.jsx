@@ -144,11 +144,11 @@ const Navbar = (props) => {
           <Link to="/"><h1>Hiretep</h1></Link>
         </div>
         <div className={click ? "menu active" : "menu"}>
-          <Link to={`../${nav.home}`} className={nav.home ? "no" : "none"} >
+          <Link to={nav.home === "Home" ? "/":`../${nav.home}`} className={nav.home ? "no" : "none"} >
             {nav.home}
           </Link>
 
-          <Link to={`../${nav.work}`} className={nav.work ? "no" : "none"}>
+          <Link to={nav.work === 'Work' ? "/employee-login":`../${nav.work}`} className={nav.work ? "no" : "none"}>
             {nav.work}
           </Link>
 
